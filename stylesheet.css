@@ -1,0 +1,56 @@
+* {
+    color: lime;
+    font-family: sans-serif
+}
+
+body {
+    background-color: grey;
+}
+
+div {
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    border: 3px dotted lime;
+    border-radius: 10px;
+}
+
+#header {
+    position: center;
+    z-index: 1;
+    float: top;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.left {
+    float: left;
+    height: 700px;
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.right {
+    float: right;
+    height: 700px;
+    width: 20%;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.rightList {
+    list-style-type: none;
+}
+
+h4 {
+    font-family: sans-serif
+}
+
+#footer {
+    float: bottom;
+    width: auto;
+    clear: both;
+}
